@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta -->
+    <title>Iron Turf | Premium Gym in Patna</title>
+    <meta
+      name="description"
+      content="Iron Turf — A unique, no frills gym for all your fitness needs. A vibrant spot for you to push yourself."
+    />
+    <meta name="theme-color" content="#050509" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Urbanist:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!--
+      Sticky Navbar
+      - Includes mobile hamburger
+      - Smooth scroll behavior handled by script.js
+    -->
+    <header class="site-header" id="top">
+      <nav class="navbar container" aria-label="Primary navigation">
+        <a class="brand" href="#home" aria-label="Iron Turf home">
+          <img class="brand__logo" src="assets/logo-clean.png" alt="Iron Turf logo" />
+        </a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-label="Open menu"
+          aria-controls="navMenu"
+          aria-expanded="false"
+        >
+          <span class="nav-toggle__lines" aria-hidden="true">
+            <span></span><span></span><span></span>
+          </span>
+        </button>
+
+        <div class="nav" id="navMenu">
+          <a class="nav__link is-active" href="#home">Home</a>
+          <a class="nav__link" href="#features">Features</a>
+          <a class="nav__link" href="#gallery">Gallery</a>
+          <a class="nav__link" href="#contact">Contact</a>
+          <a class="nav__cta" href="#contact">
+            <span>Join Now</span>
+            <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero / Home -->
+      <section class="hero" id="home" aria-label="Hero">
+        <div class="hero__bg" aria-hidden="true"></div>
+        <div class="hero__overlay" aria-hidden="true"></div>
+
+        <div class="hero__inner container">
+          <div class="hero__copy">
+            <p class="eyebrow">
+              <span class="dot" aria-hidden="true"></span>
+              Patna • Bihar • Premium Gym
+            </p>
+            <h1 class="hero__title">
+              Train Hard.<br />
+              <span class="accent">Own the Turf.</span>
+            </h1>
+            <p class="hero__subtitle">
+              “A unique, no frills gym for all your fitness needs. A vibrant spot for you
+              to push yourself.”
+            </p>
+
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="#contact">
+                <span>Join Now</span>
+                <i class="fa-solid fa-bolt" aria-hidden="true"></i>
+              </a>
+              <a class="btn btn--glass" href="#contact">
+                <i class="fa-solid fa-message" aria-hidden="true"></i>
+                <span>Contact Us</span>
+              </a>
+            </div>
+
+            <div class="hero__quick">
+              <a class="pill" href="tel:+917070339999" aria-label="Call Iron Turf">
+                <i class="fa-solid fa-phone" aria-hidden="true"></i>
+                <span>+91 70703 39999</span>
+              </a>
+              <a
+                class="pill"
+                href="https://wa.me/917070339999"
+                target="_blank"
+                rel="noopener"
+                aria-label="WhatsApp Iron Turf"
+              >
+                <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+                <span>WhatsApp</span>
+              </a>
+              <a
+                class="pill"
+                href="https://www.instagram.com/ironturfgym/"
+                target="_blank"
+                rel="noopener"
+                aria-label="Iron Turf Instagram"
+              >
+                <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                <span>Instagram</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Glass stats -->
+          <div class="hero__cards" aria-label="Highlights">
+            <article class="glass stat">
+              <p class="stat__kicker">Strength</p>
+              <p class="stat__value">Iron-built Workouts</p>
+            </article>
+            <article class="glass stat">
+              <p class="stat__kicker">Energy</p>
+              <p class="stat__value">Sporty Premium Atmosphere</p>
+            </article>
+            <article class="glass stat">
+              <p class="stat__kicker">Focus</p>
+              <p class="stat__value">No Excuses. Pure Progress.</p>
+            </article>
+          </div>
+        </div>
+
+        <a class="scroll-hint" href="#features" aria-label="Scroll to features">
+          <span>Scroll</span>
+          <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+        </a>
+      </section>
+
+      <!-- Features -->
+      <section class="section" id="features" aria-label="Features">
+        <div class="container">
+          <header class="section__head">
+            <p class="section__eyebrow">Why Iron Turf</p>
+            <h2 class="section__title">Powerful training. Premium feel.</h2>
+            <p class="section__sub">
+              Everything is designed to keep you moving—fast, focused, and consistent.
+            </p>
+          </header>
+
+          <div class="grid">
+            <article class="card">
+              <div class="card__icon" aria-hidden="true">
+                <i class="fa-solid fa-user-ninja"></i>
+              </div>
+              <h3 class="card__title">Personal Training</h3>
+              <p class="card__text">
+                Goal-driven coaching with real progression—strength, fat loss, or athletic
+                performance.
+              </p>
+            </article>
+
+            <article class="card">
+              <div class="card__icon" aria-hidden="true">
+                <i class="fa-solid fa-heart-pulse"></i>
+              </div>
+              <h3 class="card__title">Cardio Zone</h3>
+              <p class="card__text">
+                Dedicated cardio lanes to build stamina, burn fat, and finish sessions
+                strong.
+              </p>
+            </article>
+
+            <article class="card">
+              <div class="card__icon" aria-hidden="true">
+                <i class="fa-solid fa-dumbbell"></i>
+              </div>
+              <h3 class="card__title">Strength Equipment</h3>
+              <p class="card__text">
+                Serious racks, plates, and machines—built for progressive overload and
+                results.
+              </p>
+            </article>
+
+            <article class="card">
+              <div class="card__icon" aria-hidden="true">
+                <i class="fa-solid fa-bowl-food"></i>
+              </div>
+              <h3 class="card__title">Nutrition Guidance</h3>
+              <p class="card__text">
+                Simple, actionable nutrition that supports your training without
+                overcomplication.
+              </p>
+            </article>
+
+            <article class="card">
+              <div class="card__icon" aria-hidden="true">
+                <i class="fa-solid fa-people-group"></i>
+              </div>
+              <h3 class="card__title">Group Classes</h3>
+              <p class="card__text">
+                High-energy sessions to keep you accountable—train with a community that
+                pushes you.
+              </p>
+            </article>
+
+            <article class="card">
+              <div class="card__icon" aria-hidden="true">
+                <i class="fa-solid fa-medal"></i>
+              </div>
+              <h3 class="card__title">Athlete Mindset</h3>
+              <p class="card__text">
+                A gritty, motivating atmosphere—minimal distractions, maximum intensity.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery -->
+      <section class="section section--alt" id="gallery" aria-label="Gallery">
+        <div class="container">
+          <header class="section__head section__head--center">
+            <p class="section__eyebrow">Gallery</p>
+            <h2 class="section__title">The vibe inside Iron Turf.</h2>
+            <p class="section__sub">
+              Black–yellow energy, premium equipment, and a floor built for work.
+            </p>
+          </header>
+
+          <div class="gallery" role="list">
+            <!-- Replace or add more images later inside assets/ -->
+            <figure class="shot shot--wide" role="listitem">
+              <img src="assets/hero.jpg" alt="Iron Turf gym interior wide view" />
+              <figcaption>Signature black–yellow training floor</figcaption>
+            </figure>
+            <figure class="shot" role="listitem">
+              <img src="assets/gallery-01.jpg" alt="Dumbbell area at Iron Turf" />
+              <figcaption>Dumbbell den: heavy work only</figcaption>
+            </figure>
+            <figure class="shot" role="listitem">
+              <img src="assets/gallery-02.jpg" alt="Power rack and platform at Iron Turf" />
+              <figcaption>Platforms &amp; racks for strength</figcaption>
+            </figure>
+            <figure class="shot" role="listitem">
+              <img src="assets/gallery-03.jpg" alt="Cardio equipment section at Iron Turf" />
+              <figcaption>Cardio lanes for conditioning</figcaption>
+            </figure>
+            <figure class="shot" role="listitem">
+              <img src="assets/gallery-04.jpg" alt="Machines and training space at Iron Turf" />
+              <figcaption>Machines with room to move</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact & Quick Links -->
+      <section class="section" id="contact" aria-label="Contact">
+        <div class="container contact">
+          <div class="glass contact__panel">
+            <header class="section__head">
+              <p class="section__eyebrow">Contact</p>
+              <h2 class="section__title">Step onto the turf.</h2>
+              <p class="section__sub">
+                Call, WhatsApp, or visit us. We’ll help you start strong.
+              </p>
+            </header>
+
+            <div class="info">
+              <div class="info__row">
+                <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                <div>
+                  <p class="info__label">Address</p>
+                  <p class="info__value">
+                    2nd Floor, VermaHouse, Opposite Paras Hospital Pillar no 45-46, Patna,
+                    Bihar 800014
+                  </p>
+                </div>
+              </div>
+
+              <div class="info__row">
+                <i class="fa-solid fa-phone" aria-hidden="true"></i>
+                <div>
+                  <p class="info__label">Phone</p>
+                  <a class="info__value" href="tel:+917070339999">+91 70703 39999</a>
+                </div>
+              </div>
+
+              <div class="info__row">
+                <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+                <div>
+                  <p class="info__label">WhatsApp</p>
+                  <a
+                    class="info__value"
+                    href="https://wa.me/917070339999"
+                    target="_blank"
+                    rel="noopener"
+                    >Chat on WhatsApp</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="actions">
+              <a
+                class="btn btn--primary btn--full"
+                href="https://wa.me/917070339999"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+                <span>Message on WhatsApp</span>
+              </a>
+              <a
+                class="btn btn--glass btn--full"
+                href="https://www.instagram.com/ironturfgym/"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                <span>Follow on Instagram</span>
+              </a>
+              <a
+                class="btn btn--glass btn--full"
+                href="https://maps.app.goo.gl/R1FbopQC4iygB3Xw8"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fa-solid fa-map-location-dot" aria-hidden="true"></i>
+                <span>Open in Google Maps</span>
+              </a>
+            </div>
+          </div>
+
+          <aside class="contact__aside" aria-label="Quick links">
+            <div class="glass teaser">
+              <h3 class="teaser__title">Quick Links</h3>
+              <p class="teaser__text">
+                Save these for later—tap once and you’re connected.
+              </p>
+
+              <div class="quick">
+                <a class="quick__item" href="tel:+917070339999">
+                  <i class="fa-solid fa-phone" aria-hidden="true"></i>
+                  <span>Call now</span>
+                </a>
+                <a
+                  class="quick__item"
+                  href="https://wa.me/917070339999"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+                  <span>WhatsApp</span>
+                </a>
+                <a
+                  class="quick__item"
+                  href="https://www.instagram.com/ironturfgym/"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                  <span>Instagram</span>
+                </a>
+                <a
+                  class="quick__item"
+                  href="https://maps.app.goo.gl/R1FbopQC4iygB3Xw8"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                  <span>Location</span>
+                </a>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" aria-label="Footer">
+      <div class="container footer__inner">
+        <div class="footer__brand">
+          <img class="footer__logo" src="assets/logo-clean.png" alt="Iron Turf logo" />
+          <div>
+            <p class="footer__name">Iron Turf</p>
+            <p class="footer__tag">A unique, no frills gym for all your fitness needs.</p>
+          </div>
+        </div>
+
+        <nav class="footer__nav" aria-label="Footer navigation">
+          <a href="#home">Home</a>
+          <a href="#features">Features</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="footer__social" aria-label="Social links">
+          <a
+            href="https://www.instagram.com/ironturfgym/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Instagram"
+            ><i class="fa-brands fa-instagram" aria-hidden="true"></i
+          ></a>
+          <a href="tel:+917070339999" aria-label="Call"
+            ><i class="fa-solid fa-phone" aria-hidden="true"></i
+          ></a>
+          <a
+            href="https://wa.me/917070339999"
+            target="_blank"
+            rel="noopener"
+            aria-label="WhatsApp"
+            ><i class="fa-brands fa-whatsapp" aria-hidden="true"></i
+          ></a>
+          <a
+            href="https://maps.app.goo.gl/R1FbopQC4iygB3Xw8"
+            target="_blank"
+            rel="noopener"
+            aria-label="Google Maps"
+            ><i class="fa-solid fa-location-dot" aria-hidden="true"></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>© <span id="year"></span> Iron Turf. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
